@@ -1,61 +1,46 @@
-<div align="center">
+<div dir="rtl" align="center">
 
-# 🚀 MHR Cloudflare Updates
-### راهکار نوین دسترسی به اینترنت آزاد با زیرساخت Cloudflare
+# 🚀 آپدیت‌های کلودفلر ام‌اچ‌آر | MHR Cloudflare Updates
 
-![GitHub](https://img.shields.io/github/license/nooromit-git/Mhr-Cloudflare-updates?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/nooromit-git/Mhr-Cloudflare-updates?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/nooromit-git/Mhr-Cloudflare-updates?style=for-the-badge)
+## ابزار هوشمند پایتونی برای دسترسی به اینترنت آزاد با زیرساخت Cloudflare
 
----
-
-**این نسخه از MHR با ادغام تکنولوژی کلودفلر، پایداری و سرعت خیره‌کننده‌ای را برای شما به ارمغان می‌آورد.**
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/badge/Stars-GitHub-amber?style=flat-square&logo=github&logoColor=white)](https://github.com/nooromit-git/Mhr-Cloudflare-updates/stargazers)
+[![Telegram](https://img.shields.io/badge/Telegram-@nooromit-blue?style=flat-square&logo=telegram&logoColor=white)](https://t.me/nooromit)
 
 </div>
 
-## 📌 ویژگی‌های این آپدیت
-* **پایداری بالا:** کاهش چشمگیر قطعی‌های لحظه‌ای.
-* **سرعت توربو:** بهره‌گیری از زیرساخت توزیع‌شده Cloudflare.
-* **بهینه‌سازی شده:** سازگاری کامل با پروتکل‌های جدید.
-* **نصب آسان:** رابط کاربری ساده برای کاربران مبتدی و حرفه‌ای.
+---
+
+## 📌 معرفی کامل سیستم MHR
+
+پروژه **MHR Cloudflare Updates** یک راهکار تمام‌خودکار و قدرتمند است که بک‌اند آن به صورت کامل با **زبان پایتون (Python)** توسعه یافته است. این سیستم با استفاده از توابع شبکه، پینگ‌گیری موازی و تعامل با شبکه‌ی توزیع‌شده‌ی لبه (Edge) کلودفلر، همواره پایدارترین و سریع‌ترین مسیرها (IPهای تمیز و کانفیگ‌های بروز) را برای عبور از محدودیت‌های شبکه پیدا می‌کند. 
+
+شما نیازی به تنظیمات پیچیده ندارید؛ اسکریپت پایتون این ابزار تمام کارهای مربوط به تست پایداری و به‌روزرسانی کانفیگ‌ها را در پس‌زمینه با بالاترین سرعت انجام می‌دهد.
+
+### ✨ ویژگی‌های کلیدی
+
+| ردیف | قابلیت | توضیح |
+|------|---------|--------|
+| ۱ | 🐍 بک‌اند قدرتمند پایتون | پردازش سریع، مصرف بهینه منابع و اجرای کراس‌پلتفرم |
+| ۲ | 📉 پایداری بالا | کاهش چشمگیر قطعی‌های لحظه‌ای شبکه با جایگزینی خودکار |
+| ۳ | ⚡ سرعت توربو | بهره‌گیری از زیرساخت توزیع‌شده و بهینه‌شده Cloudflare |
+| ۴ | ⚙️ بهینه‌سازی شده | سازگاری کامل و ۱۰۰٪ با پروتکل‌های جدید ارتباطی |
+| ۵ | 💻 نصب آسان | دارای رابط کاربری ساده برای کاربران مبتدی و حرفه‌ای در ترمینال |
 
 ---
 
-## 🛠 راهنمای نصب و اجرا
+## 🛠️ راهنمای نصب و اجرا
 
-برای اجرای ابزار، ترمینال (CMD/Terminal) را در پوشه پروژه باز کرده و دستورات زیر را وارد کنید:
+برای اجرای ابزار، ترمینال (CMD در ویندوز یا Terminal در مک/لینوکس) را در پوشه پروژه باز کرده و دستورات زیر را وارد کنید:
 
 ### ۱. نصب پیش‌نیازها
-ابتدا دستور زیر را برای نصب کتابخانه‌های لازم وارد کنید:
+
+ابتدا دستور زیر را برای نصب کتابخانه‌های لازم پایتون وارد کنید:
+
 ```bash
 pip install -r requirements.txt
-⚠️ نکته مهم: اگر به دلیل محدودیت‌های شبکه در نصب به مشکل خوردید، از این دستور جایگزین استفاده کنید:
-
-Bash
-pip install -r requirements.txt -i [https://mirror-pypi.runflare.com/simple/](https://mirror-pypi.runflare.com/simple/) --trusted-host mirror-pypi.runflare.com
-۲. اجرای ابزار
-پس از نصب موفقیت‌آمیز، ابزار را با دستور زیر اجرا کنید:
-
-Bash
-python main.py
-📺 آموزش تصویری و پشتیبانی
-برای درک بهتر مراحل نصب و مشاهده تست سرعت، آموزش ویدیویی زیر را ببینید:
-
-💬 ارتباط با ما
-برای دریافت آخرین آپدیت‌ها و حل مشکلات احتمالی به کانال تلگرام ما بپیوندید:
-
-Telegram: @nooromit
-
-چرا این مدل برای گیت‌هاب شما عالی است؟
-بخش نشان‌ها (Badges): استفاده از Shields.io باعث میشه صفحه گیت‌هاب شما بسیار حرفه‌ای و شبیه به پروژه‌های Open Source بزرگ دنیا به نظر برسه.
-
-بخش نکات (Blockquotes): استفاده از > برای دستورات نصب، باعث می‌شه کاربر خیلی راحت کدها رو از متن تشخیص بده.
-
-دکمه‌های تعاملی: دکمه‌ی یوتیوب و لینک تلگرام کاملاً در دید هستند و نرخ کلیک (CTR) شما رو به شدت بالا می‌برن.
-
-ساختار تمیز: تفکیک بخش‌های نصب، اجرا و پشتیبانی از سردرگمی کاربر جلوگیری می‌کنه.
-
-نکته کوچک: اگر خواستی عکس کاوری که قبلاً با هم ساختیم رو هم در بالای این صفحه قرار بدی، کافیه بعد از [//]: # در ابتدای فایل، کد زیر رو اضافه کنی:
-![Cover Image](لینک_عکس_شما)
-
-آیا نیاز داری بخش خاص دیگری (مثل لیست تغییرات Changelog) رو هم به این صفحه اضافه کنم؟
+[!WARNING]⚠️ نکته مهم (رفع مشکل محدودیت اینترنت در نصب):اگر به دلیل محدودیت‌های شبکه در نصب پیش‌نیازها به مشکل خوردید، از این دستور جایگزین استفاده کنید:Bashpip install -r requirements.txt -i [https://mirror-pypi.runflare.com/simple/](https://mirror-pypi.runflare.com/simple/) --trusted-host mirror-pypi.runflare.com
+۲. اجرای ابزارپس از نصب موفقیت‌آمیز، ابزار را با دستور زیر اجرا کنید تا هسته پایتون فعال شود:Bashpython main.py
+📺 آموزش تصویری و پشتیبانیبرای درک بهتر مراحل نصب و مشاهده تست سرعت، آموزش ویدیویی زیر را ببینید:عنوان فایل آموزشیبسترهای مشاهدهلینک دسترسی🎥 ویدیو راهنمای نصب و تست سرعت📺 یوتیوب (YouTube)مشاهده ویدیو در یوتیوب💬 ارتباط با مابرای دریافت آخرین آپدیت‌ها و حل مشکلات احتمالی به کانال تلگرام ما بپیوندید:کانال رسمیآیدی تلگراملینک مستقیم📢 کانال پشتیبانی MHR@nooromitورود به کانال تلگرام🤝 مشارکت و حمایتاگر این ابزار به کارتان آمد، لطفاً:⭐ به این ریپو ستاره (Star) دهید🔄 آن را با دیگران به اشتراک بگذارید📢 در کانال تلگرام عضو شوید📜 مجوزاین پروژه تحت مجوز MIT منتشر شده است – آزاد برای استفاده شخصی، تجاری، و حتی تغییر و بازنشر با ذکر منبع.🌟 خلاصه انگلیسی (English Summary)MHR Cloudflare Updates is an innovative, Python-based tool designed to provide high-speed, uninterrupted access to the free internet using Cloudflare's edge infrastructure. Its powerful Python backend automates the process of finding and updating the most stable configs and clean IPs. Designed with an easy installation process for both beginners and advanced users.Support: Telegram @nooromit نورومیت | Nooromit برای جامعه برنامه‌نویسان فارسی ❤️
